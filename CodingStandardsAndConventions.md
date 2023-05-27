@@ -89,9 +89,9 @@ Top-level application code is all the code in the top-level project that creates
   - Single line property accessors should be written as `get => ...;` and `set => ...;`
   - Single line methods should be written as `public ReturnType MethodName() => ...;`
   - Single line `if`/`else if`/`else` blocks do not need curly braces (`{ }`).
-  - Use `someExpression switch { }` where appropriate
+  - Use `someExpression switch { }` where appropriate.
   - Use pattern matching where appropriate.
 - Do not use `this.` to access type members.
 - Do not use `private` auto-properties. Use fields instead.
 - Instance auto-properties and fields should generally not be mixed. If a type has fields, then use full properties instead of auto-properties.
-- Prefer accessing values through their backing fields instead of their properties, unless the property provides additional functionality that is needed.
+- Prefer accessing values through their backing fields instead of their properties, unless accessing the value through the property provides additional functionality that is desired, i.e. validation of the value or a null check.
