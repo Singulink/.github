@@ -55,7 +55,7 @@ The following is the order that member should appear inside types. Each category
 ### Async Methods
 
 - Methods that return `Task`, `ValueTask`, or other awaitable types must be named with an `Async` suffix.
-- Async methods that return `void` must not be named with an `Async` suffix.
+- Async methods that return `void` must NOT be named with an `Async` suffix.
 - Async methods that return `void` should be avoided. For event handlers that contain async behavior, put the async behavior inside a nested async method that returns a `Task` and follow the guidance below regarding fire-and-forget behavior.
 - Do not fire-and-forget methods that return awaitable types. Use the `AmbientTasks` library (https://github.com/jnm2/AmbientTasks) to facilitate fire-and-forget behavior with proper exception tracking/handling.
 
