@@ -17,7 +17,7 @@ Standard .NET conventions apply to anything not specified below. Conventions spe
 
 ## Type Member Ordering
 
-The following is the order that member should appear inside types. Each category of members should be primarily ordered in descending order of accessibility, followed by the ordering specified in the parenthesis:
+The following is the order that member should appear inside types. Each category of members below should be primarily ordered in descending order of accessibility, followed by the ordering specified in the parenthesis:
 
 1. Constants and constant-like fields (logical grouping and order)
 2. Static fields (logical grouping and order)
