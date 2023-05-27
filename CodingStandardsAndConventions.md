@@ -8,11 +8,11 @@ Standard .NET conventions apply to anything not specified below. Conventions spe
 
 - Summary comments (`/// <summary></summary>`) must be provided on public types and members.
 - Comments on method parameters are optional, but must be provided if their correct usage is not obvious.
-- Comments on internal members are optional, but should be added if their correct usage is not obvious.
+- Comments on internal members are optional, but should be provided if their correct usage is not obvious.
 
 ### Application Code
 
-- Comments on types and members are optional, but should be added if their correct usage is not obvious.
+- Comments on types and members are optional, but should be provided if their correct usage is not obvious.
 
 ## Type Member Ordering
 
