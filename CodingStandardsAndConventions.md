@@ -79,7 +79,7 @@ Top-level application code is all the code in the top-level project that creates
 ## Nullable Reference Types
 
 - NRTs must be enabled.
-- Our [`RuntimeNullables`](https://www.nuget.org/packages/RuntimeNullables.Fody) package must be used to inject runtime parameter null checks based on NRT annotations. Settings should be left at their defaults.
+- Our [`RuntimeNullables`](https://github.com/Singulink/RuntimeNullables/) package must be used to inject runtime parameter null checks based on NRT annotations. Settings should be left at their defaults.
 
 ## Miscellaneous
 
